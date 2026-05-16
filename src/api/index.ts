@@ -259,3 +259,9 @@ export const api = {
     },
   },
 }
+
+// ============================================================
+// Exportar também o cliente HTTP real
+// Use apiHttp quando VITE_API_URL estiver configurado
+// ============================================================
+export { apiHttp } from './http'
